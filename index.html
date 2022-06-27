@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Naz kitchen</title>
+     <link rel="stylesheet" href="css/style.css">
+     <!-- CSS bootstrap -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+</head>
+
+<body class="body-color">
+     <h2 class="text-center text-danger"> Welcome to Naz Meals kitchen</h2>
+     <!-- search food section -->
+     <div class="input-group mb-3 w-50 mx-auto">
+          <input id="search-field" type="text" class="form-control" placeholder="Search Your Favorite Food"
+               aria-label="Recipient's username" aria-describedby="button-addon2">
+
+          <button onclick="searchFood()" class="btn btn-outline-danger" type="button" id="button-addon2">Button</button>
+     </div>
+     <div id="write-meal-name" class="text-center text-danger">
+
+     </div>
+
+     <!--------------------- display single searching food -------------------------->
+
+     <div id="displayMeal" class="w-50 mx-auto">
+
+
+     </div>
+
+     <!-- display searching food -->
+
+     <div id="food-display-box" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 m-4 g-4 ">
+     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <!-- JavaScript Bundle with Popper -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+          crossorigin="anonymous"></script>
+     <script src="js/mealdb.js"></script>
+
+</body>
+
+</html>
